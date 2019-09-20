@@ -3,15 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "marked": "^0.4.0",
-    "prop-types": "^15.6.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "marked": "^0.7.0",
+    "prettier": "^1.18.2",
+    "prop-types": "^15.7.2",
     "rc-color-picker": "^1.2.6",
-    "rc-dropdown": "^2.2.0",
-    "rc-menu": "^7.2.6",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "react-icons": "^2.2.7",
-    "react-scripts": "1.1.4"
+    "rc-dropdown": "^2.4.1",
+    "rc-menu": "^7.4.28",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-icons": "^3.7.0",
+    "react-scripts": "^3.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -19,9 +21,16 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "devDependencies": {
-    "eslint": "^5.2.0",
-    "eslint-plugin-prettier": "^2.6.2",
-    "prettier": "1.13.7"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

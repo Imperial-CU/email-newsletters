@@ -13,12 +13,13 @@ How to get this running locally on your machine for development.
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/en/)
+- [Yarn](https://yarnpkg.com)
 
 ### Installing
 
 ```$bash
-npm install
-npm start
+yarn install
+yarn start
 ```
 
 - Javascript and CSS files are in `src/`

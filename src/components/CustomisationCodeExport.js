@@ -1,6 +1,5 @@
 import React, { Component, Fragment } from "react";
-import CheckIcon from "react-icons/lib/md/check";
-import CopyIcon from "react-icons/lib/md/content-copy";
+import { MdCheck, MdContentCopy } from "react-icons/md";
 
 import { downloadFile, copyToClipboard } from "../utils";
 
@@ -75,11 +74,11 @@ class CustomisationCodeExport extends Component {
         >
           {isOutputCustomisationCodeRecentlyCopied ? (
             <Fragment>
-              Copied! <CheckIcon />
+              Copied! <MdCheck />
             </Fragment>
           ) : (
             <Fragment>
-              Copy <CopyIcon />
+              Copy <MdContentCopy />
             </Fragment>
           )}
         </button>
