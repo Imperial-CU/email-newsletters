@@ -12,7 +12,8 @@ const TitleIntroduction = () => (
       can contribute through the{" "}
       <a href={"https://github.com/Imperial-CU/email-newsletters"}>
         GitHub repo
-      </a>.
+      </a>
+      .
     </p>
   </Fragment>
 );

@@ -98,8 +98,8 @@ export const fontFallbackStacks = [
       <Fragment>
         <span style={{ fontFamily: "Palatino Linotype" }}>
           Palatino Linotype
-        </span>,{" "}
-        <span style={{ fontFamily: "Book Antiqua" }}>Book Antiqua</span>,{" "}
+        </span>
+        , <span style={{ fontFamily: "Book Antiqua" }}>Book Antiqua</span>,{" "}
         <span style={{ fontFamily: "Palatino" }}>Palatino</span>,{" "}
         <span style={{ fontFamily: "serif" }}>serif</span>
       </Fragment>
@@ -163,8 +163,8 @@ export const fontFallbackStacks = [
       <Fragment>
         <span style={{ fontFamily: "Lucida Sans Unicode" }}>
           Lucida Sans Unicode
-        </span>,{" "}
-        <span style={{ fontFamily: "Lucida Grande" }}>Lucida Grande</span>,{" "}
+        </span>
+        , <span style={{ fontFamily: "Lucida Grande" }}>Lucida Grande</span>,{" "}
         <span style={{ fontFamily: "sans-serif" }}>sans-serif</span>
       </Fragment>
     )

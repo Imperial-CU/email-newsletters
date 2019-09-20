@@ -111,7 +111,9 @@ class CustomisationEditorSection extends Component {
       <Fragment>
         <h4>{title}</h4>
         <CollapsibleContent isOpen={isOpen}>
-          {rows.map(row => <div className={"row"}>{row}</div>)}
+          {rows.map(row => (
+            <div className={"row"}>{row}</div>
+          ))}
         </CollapsibleContent>
         {isOpen ? (
           <button onClick={closeSection}>Hide</button>
