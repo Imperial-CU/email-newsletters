@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { Fragment, Component } from "react";
 import PropTypes from "prop-types";
 
 const placeholderText =
@@ -10,20 +10,30 @@ const style = {
   minHeight: "20em"
 };
 
-function ContentMarkdownEditor({ setContentMarkdown }) {
-  return (
-    <Fragment>
-      <label htmlFor="contentMarkdownEditor">Email content (markdown)</label>
-      <textarea
-        className="u-full-width"
-        id="contentMarkdownEditor"
-        onChange={setContentMarkdown}
-        style={style}
-      >
-        {placeholderText}
-      </textarea>
-    </Fragment>
-  );
+class ContentMarkdownEditor extends Component {
+  componentDidMount() {
+    const { setContentMarkdown } = this.props;
+
+    // Yes, I know this is hacky and bad
+    setContentMarkdown({ target: { value: placeholderText } });
+  }
+
+  render() {
+    const { setContentMarkdown } = this.props;
+    return (
+      <Fragment>
+        <label htmlFor="contentMarkdownEditor">Email content (markdown)</label>
+        <textarea
+          className="u-full-width"
+          id="contentMarkdownEditor"
+          onChange={setContentMarkdown}
+          style={style}
+        >
+          {placeholderText}
+        </textarea>
+      </Fragment>
+    );
+  }
 }
 
 ContentMarkdownEditor.propTypes = {

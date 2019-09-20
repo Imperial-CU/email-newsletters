@@ -47,6 +47,13 @@ export const defaultParams = {
       imageUrl:
         "https://www.fnr.lu/wp-content/uploads/2016/03/square-twitter-512.png",
       linkUrl: "https://twitter.com/CU_Imperial"
+    },
+    {
+      name: "Instagram",
+      imageUrl:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/" +
+        "200px-Instagram_logo_2016.svg.png",
+      linkUrl: "https://www.instagram.com/imperial_cu"
     }
   ],
 
