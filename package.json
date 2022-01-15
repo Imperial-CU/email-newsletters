@@ -5,7 +5,7 @@
   "dependencies": {
     "eslint": "^6.4.0",
     "eslint-plugin-prettier": "^3.1.1",
-    "marked": "^0.7.0",
+    "marked": "^4.0.10",
     "prettier": "^1.18.2",
     "prop-types": "^15.7.2",
     "rc-color-picker": "^1.2.6",
